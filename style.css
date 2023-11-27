@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    outline: 0;
+    background: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+body {
+    background: rgb(42, 201, 201);
+    font-family: serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* heaeder */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 890px;
+}
+
+.header .container .text-content {}
+
+.header .container .text-content .uptitle {
+    font-size: 64px;
+    font-weight: 500;
+    cursor: grab;
+    transition: 0.3s;
+}
+
+.header .container .text-content .uptitle:hover {
+    background: blue;
+    border-radius: 60px;
+    padding: 14px;
+}
+
+.header .container .text-content .title {
+    opacity: 70%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header .container .text-content .title:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: gray;
+    border-radius: 30%;
+}
+
+.header .container .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.header .container .menu p {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header .container .menu p:hover {
+    border: 2px solid rgb(63, 63, 63);
+    background-color: rgb(32, 32, 32);
+    border-radius: 40px;
+    padding: 10px 30px;
+}
+
+/* left-center-center */
+
+.left-center-center {}
+
+
+.left-center-center .container {
+    margin-top: 40px;
+    margin-left: 220px;
+    display: flex;
+}
+
+.left-center-center .container .left {
+    background: aqua;
+    width: 300px;
+
+    transition: 0.2s;
+    height: 840px;
+}
+
+.left-center-center .container .left .text-content {
+    cursor: pointer;
+
+}
+
+.left-center-center .container .left:hover {
+    background: royalblue;
+    border-radius: 20px;
+    height: 840px;
+
+}
+
+.left-center-center .container .center {
+    background: rgb(2, 181, 181);
+    width: 900px;
+
+    transition: 0.3s;
+    height: 840px;
+
+
+}
+
+.left-center-center .container .right {
+    background: aqua;
+    width: 300px;
+    height: 840px;
+
+}
+
+.left-center-center .container .right:hover {
+    background: royalblue;
+    border-radius: 20px;
+
+}
+
+.left-center-center .container .center .text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    /* background: rgb(218, 172, 172); */
+    cursor: pointer;
+    flex-direction: column;
+
+}
+
+.left-center-center .container .right .text-content {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    flex-direction: column;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.left-center-center .container .center:hover {
+    background: cadetblue;
+    border-radius: 20px;
+
+}
+
+
+
+.left-center-center .container .right .text-content .uptitle {
+    background: paleturquoise;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-center-center .container .left .text-content .uptitle {
+    background: paleturquoise;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-center-center .container .center .text-content .uptitle {
+    background: rgb(86, 197, 197);
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about {
+    margin-top: 50px;
+    width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-left: 300px;
+    flex-direction: column;
+}
+
+.footer {
+    background: rgb(51, 51, 51);
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.option {}
+
+.option .container {}
+
+.option .container .menu {}
+
+.option .container .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.option .container .text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 34px;
+    margin-bottom: 70px;
+}
