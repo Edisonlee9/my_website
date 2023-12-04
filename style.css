@@ -48,6 +48,7 @@ body {
     background: blue;
     border-radius: 60px;
     padding: 14px;
+    box-shadow: 2px 2px 2px 2px rgb(102, 102, 102);
 }
 
 .header .container .text-content .title {
@@ -79,10 +80,13 @@ body {
 }
 
 .header .container .menu p:hover {
-    border: 2px solid rgb(63, 63, 63);
-    background-color: rgb(32, 32, 32);
+
+    background-color: aqua;
     border-radius: 40px;
     padding: 10px 30px;
+    color: black;
+    box-shadow: 2px 2px 2px black;
+    font-size: 20px;
 }
 
 /* left-center-center */
@@ -238,4 +242,123 @@ body {
     margin-top: 40px;
     font-size: 34px;
     margin-bottom: 70px;
+}
+
+
+.footer .container {
+    color: #FFF;
+}
+
+.features {
+    margin-top: 150px;
+}
+
+.features .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features .container .text-content {}
+
+.features .container .text-content .title {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.features .container .text-content .subtitle {
+    transition: 0.2s;
+
+    cursor: pointer;
+    width: 900px;
+    font-size: 25px;
+}
+
+.features .container .text-content .title:hover::after {
+    content: 'YEah This is FEatures';
+    border: 1px solid black;
+    background: darkgray;
+    background: rgb(123, 0, 255);
+    background: linear-gradient(90deg, rgba(123, 0, 255, 1) 0%, rgba(142, 0, 149, 1) 100%);
+
+}
+
+.features .container .text-content .subtitle:hover {
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(123, 0, 255, 1) 0%, rgba(142, 0, 149, 1) 100%);
+}
+
+.features .container .text-content .subtitle:hover::after {
+    content: 'untitled';
+    background: white;
+    border-radius: 20px 30px;
+}
+
+.idk {
+    padding: 100px;
+}
+
+.idk .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.idk .container .text-content {
+    padding: 103px;
+}
+
+.idk .container .img-block {}
+
+.idk .container .text-content .title {
+    font-size: 70px;
+    margin-bottom: 40px;
+    line-height: 70px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.idk .container .text-content .title:hover {
+    color: rgb(246, 255, 27);
+    color: linear-gradient(90deg, rgba(246, 255, 27, 1) 0%, rgba(61, 255, 0, 1) 100%);t
+}
+
+.idk .container .text-content .title:hover::after {
+    content: 'DONT READ';
+    font-size: 70px;
+    background: rgb(27, 58, 255);
+    background: linear-gradient(90deg, rgba(27, 58, 255, 1) 0%, rgba(0, 255, 243, 1) 100%);
+    color: rgb(246, 255, 27);
+    color: linear-gradient(90deg, rgba(246, 255, 27, 1) 0%, rgba(61, 255, 0, 1) 100%);
+
+}
+
+.idk .container .text-content .subtitle {
+    width: 400px;
+    font-size: 60px;
+    transition: 0.2s;
+}
+.idk .container .text-content .subtitle:hover{
+    background: white;
+}
+.idk .container .text-content .lowtitle {}
+.idk .container .text-content .lowtitle:hover
+{
+    content: '';
+    font-size: 70px;
 }
