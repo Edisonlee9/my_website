@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+body {
+	background: url(../image/arima.png) no-repeat;
+	color: white;
+	font-family: monospace;
+	height: 200vh;
+}
+
+.reg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.reg .container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 400px;
+	height: 670px;
+	background: rgb(43, 41, 41);
+	margin-top: 50px;
+	border-radius: 10px;
+}
+
+.reg .container h1 {
+	padding: 20px 0;
+}
+
+.reg .container .main_reg {
+	padding: 30px 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 40px;
+	flex-direction: column;
+}
+
+.reg .container .main_reg .user_name {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	font-size: 20px;
+}
+
+.reg .container .main_reg .user_name input {
+	height: 30px;
+	background: black;
+	color: white;
+	font-size: 20px;
+}
+
+.reg .container .main_reg .password {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	font-size: 20px;
+}
+
+.reg .container .main_reg .password input {
+	height: 30px;
+	background: black;
+	color: white;
+	font-size: 20px;
+}
+
+.reg .container .main_reg .birth {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	font-size: 20px;
+}
+
+.reg .container .main_reg .birth input {
+	height: 30px;
+	background: black;
+	color: white;
+	font-size: 20px;
+	transition: 0, 2s;
+}
+
+.reg .container .main_reg .title {
+	width: 300px;
+}
+
+input {
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.reg .container .main_reg .birth input:hover {
+	background: gray;
+}
+
+.reg .container .main_reg .password input:hover {
+	background: gray;
+}
+
+.reg .container .main_reg .user_name input:hover {
+	background: gray;
+}
+
+.reg .container .main_reg .btns button {
+	outline: 0;
+	border: 0;
+	background: gray;
+	cursor: pointer;
+	color: white;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	border-radius: 14px;
+	transition: 0.3s;
+}
+
+.reg .container .main_reg .btns button:hover {
+	background: gainsboro;
+}
+
+a {
+	padding: 10px 20px;
+	background: white;
+	border-radius: 14px;
+	transition: 0.3s;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover
+{
+	background: black;
+	color: white;
+}
